@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D056AAAB268763D50052BC16 /* PracticeFighterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056AAAA268763D50052BC16 /* PracticeFighterPicker.swift */; };
+		D056AAAD2687BFFA0052BC16 /* PracticeFoePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056AAAC2687BFFA0052BC16 /* PracticeFoePicker.swift */; };
+		D05C554F267ECD7F004E786E /* LeagueBattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C554E267ECD7F004E786E /* LeagueBattleView.swift */; };
+		D06D5E9126764FE900059A62 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D5E9026764FE900059A62 /* SettingsView.swift */; };
+		D08A2F702686202F00FE926B /* Battles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08A2F6F2686202F00FE926B /* Battles.swift */; };
+		D0963C94268A656600A82AF2 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0963C93268A656600A82AF2 /* HelpView.swift */; };
+		D096FCAF267FE54E00B2A710 /* BattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096FCAE267FE54E00B2A710 /* BattleView.swift */; };
+		D0B8DF1F266BC6A000BF60E5 /* PokeMaster_SimulatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8DF1E266BC6A000BF60E5 /* PokeMaster_SimulatorApp.swift */; };
+		D0B8DF21266BC6A000BF60E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8DF20266BC6A000BF60E5 /* ContentView.swift */; };
+		D0B8DF23266BC6AA00BF60E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B8DF22266BC6AA00BF60E5 /* Assets.xcassets */; };
+		D0B8DF26266BC6AA00BF60E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B8DF25266BC6AA00BF60E5 /* Preview Assets.xcassets */; };
+		D0B8DF28266BC6AA00BF60E5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8DF27266BC6AA00BF60E5 /* Persistence.swift */; };
+		D0B8DF2B266BC6AA00BF60E5 /* PokeMaster_Simulator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0B8DF29266BC6AA00BF60E5 /* PokeMaster_Simulator.xcdatamodeld */; };
+		D0B8DF33266BC74000BF60E5 /* Moves.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8DF32266BC74000BF60E5 /* Moves.swift */; };
+		D0B8DF35266BD31F00BF60E5 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8DF34266BD31F00BF60E5 /* Pokemon.swift */; };
+		D0B8DF37266C1A5500BF60E5 /* SelectGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8DF36266C1A5500BF60E5 /* SelectGameView.swift */; };
+		D0B8DF39266C1F3B00BF60E5 /* PokemonCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8DF38266C1F3B00BF60E5 /* PokemonCardView.swift */; };
+		D0B8DF3B266C5C8500BF60E5 /* SelectTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8DF3A266C5C8500BF60E5 /* SelectTeamView.swift */; };
+		D0D461F52674404400561518 /* PokemonInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D461F42674404400561518 /* PokemonInfoCard.swift */; };
+		D0E70011267553E400A41D5E /* PokemonSmallCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E70010267553E400A41D5E /* PokemonSmallCard.swift */; };
+		D0E70013267593A100A41D5E /* TeamOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E70012267593A100A41D5E /* TeamOverview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D056AAAA268763D50052BC16 /* PracticeFighterPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeFighterPicker.swift; sourceTree = "<group>"; };
+		D056AAAC2687BFFA0052BC16 /* PracticeFoePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeFoePicker.swift; sourceTree = "<group>"; };
+		D05C554E267ECD7F004E786E /* LeagueBattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueBattleView.swift; sourceTree = "<group>"; };
+		D06D5E9026764FE900059A62 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D08A2F6F2686202F00FE926B /* Battles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battles.swift; sourceTree = "<group>"; };
+		D0963C93268A656600A82AF2 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		D096FCAE267FE54E00B2A710 /* BattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleView.swift; sourceTree = "<group>"; };
+		D0B8DF1B266BC6A000BF60E5 /* PokeMaster Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokeMaster Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B8DF1E266BC6A000BF60E5 /* PokeMaster_SimulatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeMaster_SimulatorApp.swift; sourceTree = "<group>"; };
+		D0B8DF20266BC6A000BF60E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0B8DF22266BC6AA00BF60E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B8DF25266BC6AA00BF60E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0B8DF27266BC6AA00BF60E5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D0B8DF2A266BC6AA00BF60E5 /* PokeMaster_Simulator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PokeMaster_Simulator.xcdatamodel; sourceTree = "<group>"; };
+		D0B8DF2C266BC6AA00BF60E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B8DF32266BC74000BF60E5 /* Moves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moves.swift; sourceTree = "<group>"; };
+		D0B8DF34266BD31F00BF60E5 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		D0B8DF36266C1A5500BF60E5 /* SelectGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGameView.swift; sourceTree = "<group>"; };
+		D0B8DF38266C1F3B00BF60E5 /* PokemonCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCardView.swift; sourceTree = "<group>"; };
+		D0B8DF3A266C5C8500BF60E5 /* SelectTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTeamView.swift; sourceTree = "<group>"; };
+		D0D461F42674404400561518 /* PokemonInfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonInfoCard.swift; sourceTree = "<group>"; };
+		D0E70010267553E400A41D5E /* PokemonSmallCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSmallCard.swift; sourceTree = "<group>"; };
+		D0E70012267593A100A41D5E /* TeamOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamOverview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B8DF18266BC6A000BF60E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D06DFC382680E5080043502B /* Battle Tab */ = {
+			isa = PBXGroup;
+			children = (
+				D05C554E267ECD7F004E786E /* LeagueBattleView.swift */,
+				D056AAAA268763D50052BC16 /* PracticeFighterPicker.swift */,
+				D056AAAC2687BFFA0052BC16 /* PracticeFoePicker.swift */,
+				D096FCAE267FE54E00B2A710 /* BattleView.swift */,
+				D0963C93268A656600A82AF2 /* HelpView.swift */,
+			);
+			path = "Battle Tab";
+			sourceTree = "<group>";
+		};
+		D06DFC392680E5190043502B /* Team Tab */ = {
+			isa = PBXGroup;
+			children = (
+				D0E70012267593A100A41D5E /* TeamOverview.swift */,
+				D0E70010267553E400A41D5E /* PokemonSmallCard.swift */,
+				D0B8DF38266C1F3B00BF60E5 /* PokemonCardView.swift */,
+				D0D461F42674404400561518 /* PokemonInfoCard.swift */,
+			);
+			path = "Team Tab";
+			sourceTree = "<group>";
+		};
+		D06DFC3A2680E53E0043502B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D0B8DF34266BD31F00BF60E5 /* Pokemon.swift */,
+				D0B8DF32266BC74000BF60E5 /* Moves.swift */,
+				D08A2F6F2686202F00FE926B /* Battles.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D06DFC3B2680E5790043502B /* Settings Tab */ = {
+			isa = PBXGroup;
+			children = (
+				D06D5E9026764FE900059A62 /* SettingsView.swift */,
+				D0B8DF36266C1A5500BF60E5 /* SelectGameView.swift */,
+				D0B8DF3A266C5C8500BF60E5 /* SelectTeamView.swift */,
+			);
+			path = "Settings Tab";
+			sourceTree = "<group>";
+		};
+		D0B8DF12266BC6A000BF60E5 = {
+			isa = PBXGroup;
+			children = (
+				D0B8DF1D266BC6A000BF60E5 /* PokeMaster Simulator */,
+				D0B8DF1C266BC6A000BF60E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B8DF1C266BC6A000BF60E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B8DF1B266BC6A000BF60E5 /* PokeMaster Simulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B8DF1D266BC6A000BF60E5 /* PokeMaster Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				D0B8DF1E266BC6A000BF60E5 /* PokeMaster_SimulatorApp.swift */,
+				D06DFC3A2680E53E0043502B /* Data */,
+				D0B8DF20266BC6A000BF60E5 /* ContentView.swift */,
+				D06DFC382680E5080043502B /* Battle Tab */,
+				D06DFC392680E5190043502B /* Team Tab */,
+				D06DFC3B2680E5790043502B /* Settings Tab */,
+				D0B8DF22266BC6AA00BF60E5 /* Assets.xcassets */,
+				D0B8DF27266BC6AA00BF60E5 /* Persistence.swift */,
+				D0B8DF2C266BC6AA00BF60E5 /* Info.plist */,
+				D0B8DF29266BC6AA00BF60E5 /* PokeMaster_Simulator.xcdatamodeld */,
+				D0B8DF24266BC6AA00BF60E5 /* Preview Content */,
+			);
+			path = "PokeMaster Simulator";
+			sourceTree = "<group>";
+		};
+		D0B8DF24266BC6AA00BF60E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0B8DF25266BC6AA00BF60E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B8DF1A266BC6A000BF60E5 /* PokeMaster Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B8DF2F266BC6AA00BF60E5 /* Build configuration list for PBXNativeTarget "PokeMaster Simulator" */;
+			buildPhases = (
+				D0B8DF17266BC6A000BF60E5 /* Sources */,
+				D0B8DF18266BC6A000BF60E5 /* Frameworks */,
+				D0B8DF19266BC6A000BF60E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PokeMaster Simulator";
+			productName = "PokeMaster Simulator";
+			productReference = D0B8DF1B266BC6A000BF60E5 /* PokeMaster Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B8DF13266BC6A000BF60E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D0B8DF1A266BC6A000BF60E5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = D0B8DF16266BC6A000BF60E5 /* Build configuration list for PBXProject "PokeMaster Simulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B8DF12266BC6A000BF60E5;
+			productRefGroup = D0B8DF1C266BC6A000BF60E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B8DF1A266BC6A000BF60E5 /* PokeMaster Simulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B8DF19266BC6A000BF60E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B8DF26266BC6AA00BF60E5 /* Preview Assets.xcassets in Resources */,
+				D0B8DF23266BC6AA00BF60E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B8DF17266BC6A000BF60E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B8DF28266BC6AA00BF60E5 /* Persistence.swift in Sources */,
+				D056AAAD2687BFFA0052BC16 /* PracticeFoePicker.swift in Sources */,
+				D05C554F267ECD7F004E786E /* LeagueBattleView.swift in Sources */,
+				D0D461F52674404400561518 /* PokemonInfoCard.swift in Sources */,
+				D0B8DF2B266BC6AA00BF60E5 /* PokeMaster_Simulator.xcdatamodeld in Sources */,
+				D0B8DF37266C1A5500BF60E5 /* SelectGameView.swift in Sources */,
+				D0B8DF21266BC6A000BF60E5 /* ContentView.swift in Sources */,
+				D056AAAB268763D50052BC16 /* PracticeFighterPicker.swift in Sources */,
+				D0B8DF3B266C5C8500BF60E5 /* SelectTeamView.swift in Sources */,
+				D08A2F702686202F00FE926B /* Battles.swift in Sources */,
+				D096FCAF267FE54E00B2A710 /* BattleView.swift in Sources */,
+				D0963C94268A656600A82AF2 /* HelpView.swift in Sources */,
+				D0B8DF33266BC74000BF60E5 /* Moves.swift in Sources */,
+				D0E70011267553E400A41D5E /* PokemonSmallCard.swift in Sources */,
+				D0B8DF1F266BC6A000BF60E5 /* PokeMaster_SimulatorApp.swift in Sources */,
+				D0B8DF39266C1F3B00BF60E5 /* PokemonCardView.swift in Sources */,
+				D0B8DF35266BD31F00BF60E5 /* Pokemon.swift in Sources */,
+				D0E70013267593A100A41D5E /* TeamOverview.swift in Sources */,
+				D06D5E9126764FE900059A62 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D0B8DF2D266BC6AA00BF60E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0B8DF2E266BC6AA00BF60E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B8DF30266BC6AA00BF60E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PokeMaster Simulator/Preview Content\"";
+				DEVELOPMENT_TEAM = 868YUPC66Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PokeMaster Simulator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Peter-Khouly.PokeMaster-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B8DF31266BC6AA00BF60E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PokeMaster Simulator/Preview Content\"";
+				DEVELOPMENT_TEAM = 868YUPC66Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PokeMaster Simulator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Peter-Khouly.PokeMaster-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B8DF16266BC6A000BF60E5 /* Build configuration list for PBXProject "PokeMaster Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B8DF2D266BC6AA00BF60E5 /* Debug */,
+				D0B8DF2E266BC6AA00BF60E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B8DF2F266BC6AA00BF60E5 /* Build configuration list for PBXNativeTarget "PokeMaster Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B8DF30266BC6AA00BF60E5 /* Debug */,
+				D0B8DF31266BC6AA00BF60E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0B8DF29266BC6AA00BF60E5 /* PokeMaster_Simulator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0B8DF2A266BC6AA00BF60E5 /* PokeMaster_Simulator.xcdatamodel */,
+			);
+			currentVersion = D0B8DF2A266BC6AA00BF60E5 /* PokeMaster_Simulator.xcdatamodel */;
+			path = PokeMaster_Simulator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0B8DF13266BC6A000BF60E5 /* Project object */;
+}
